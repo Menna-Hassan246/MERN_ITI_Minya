@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menna Hassan's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+            <li><a href="#birthday" class="nav-link">Birthday</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#travel" class="nav-link">Travel</a></li>
+            <li><a href="#cv" class="nav-link">CV</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page">
+        <div class="container">
+            <div class="profile">
+                <img src="Images/personal.jpg" alt="Profile Picture">
+                <h2>Hello, I'm Menna Hassan</h2>
+                <p>Welcome to my personal website! I'm a web developer passionate about creating beautiful and functional websites. This site showcases my hobbies, interests, and professional information.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Page -->
+    <section id="hobbies" class="page">
+        <div class="container">
+            <h1>My Hobbies</h1>
+            <div class="hobbies-container">
+                <div class="hobby">
+                    <img src="Images/fitness.jpg" alt="Gym">
+                    <h3>Fitness</h3>
+                </div>
+                <div class="hobby">
+                    <img src="Images/cooking.jpeg" alt="Cooking">
+                    <h3>Cooking</h3>
+                </div>
+                <div class="hobby">
+                    <img src="Images/hiking.jpg" alt="Hiking">
+                    <h3>Hiking</h3>
+                </div>
+                <div class="hobby">
+                    <img src="Images/photography.webp" alt="Photography">
+                    <h3>Photography</h3>
+                </div>
+                <div class="hobby">
+                    <img src="Images/gaming.jpg" alt="Gaming">
+                    <h3>Gaming</h3>
+                </div>
+                <div class="hobby">
+                    <img src="Images/music.jpeg" alt="Music">
+                    <h3>Music</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Page -->
+    <section id="birthday" class="page">
+        <div class="container">
+            <h1>My Birthday</h1>
+            <div class="birthday-content">
+                <img src="Images/brithday.jpg" 
+                     alt="Birthday Celebration" 
+                     class="birthday-image">
+                <input type="checkbox" id="birthday-toggle">
+                <div class="birthday-form">
+                    <h2>Leave me a birthday message!</h2>
+                    <textarea placeholder="Write your kind message here..."></textarea>
+                    <label for="birthday-toggle" class="submit-btn">Submit</label>
+                </div>
+                <div class="thank-you">
+                    <h2>Thank You!</h2>
+                    <p>Thank you for your kind birthday wishes!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="text" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="social-media">
+                    <h2>Connect With Me</h2>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://www.linkedin.com/in/menna-hassan-320643265" class="social-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Page -->
+    <section id="travel" class="page">
+        <div class="container">
+            <h1>Places I Want to Visit</h1>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="slide-caption">Japan</div>
+                        <img src="Images/japan.avif"alt="Japan">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-caption">Italy</div>
+                        <img src="Images/italy.avif" alt="Italy">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-caption">New Zealand</div>
+                        <img src="Images/New Zealand.avif" alt="New Zealand">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-caption">Iceland</div>
+                        <img src="Images/iceland.avif" alt="Iceland">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-caption">Peru</div>
+                        <img src="Images/peru.avif" alt="Peru">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev">Previous</button>
+                <button class="slider-btn next">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Page -->
+    <section id="cv" class="page">
+        <div class="container">
+            <h1 class="cv-title">My Curriculum Vitae</h1>
+            <div class="cv-card">
+                <div class="cv-card-inner">
+                    <!-- Left Column -->
+                    <div class="cv-column personal-info">
+                        <div class="profile-header">
+                            <div class="profile-img-container">
+                                <img src="Images/personal.jpg" alt="Profile Photo" class="profile-img">
+                            </div>
+                            <h2>Menna Hassan</h2>
+                            <p class="profession">Backend Developer</p>
+                        </div>
+                        <div class="info-section">
+                            <h3 class="section-title"><i class="fas fa-phone"></i> Contact</h3>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>xxx@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>01023455678</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-globe"></i>
+                                <span>Cairo, Egypt</span>
+                            </div>
+                        </div>
+                        <div class="info-section">
+                            <h3 class="section-title"><i class="fas fa-code"></i> Skills</h3>
+                            <div class="skills">
+                                <span class="skill">HTML5</span>
+                                <span class="skill">CSS3</span>
+                                <span class="skill">React</span>
+                                 <span class="skill">.Net</span>
+                                <span class="skill">Responsive Design</span>
+                                <span class="skill">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column -->
+                    <div class="cv-column professional-info">
+                        <div class="info-section">
+                            <h3 class="section-title"><i class="fas fa-school"></i> Education</h3>
+                            <div class="timeline-item">
+                                <h4>Student in Computer Science Department in BFCAI</h4>
+                                <p class="timeline-location">University of Technology</p>
+                                <p class="timeline-desc">Specialized in Web Development</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>DEPI</h4>
+                                <p class="timeline-date">2024</p>
+                                <p class="timeline-location">Bnha University</p>
+                                <p class="timeline-desc">Intensive 6 months program focusing on web technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
